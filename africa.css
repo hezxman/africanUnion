@@ -118,6 +118,7 @@ color: white;
     text-transform: uppercase;
     color: white;
     border-right: 1px solid white;
+    transition: ease-in-out .3s;
 }
 
 .menu-bar ul li a{
@@ -140,7 +141,7 @@ color: white;
 .menu-bar ul li:hover ul{
     position: absolute;
     display: inline-flex;
-    background-color: rgb(6, 83, 6);
+    background-color: rgb(192, 228, 192);
     list-style-type: none;
     margin-top: 32px;
     border-top: 2px solid white;
